@@ -1,0 +1,13 @@
+baseURL = 'http://example.org/'
+languageCode = 'en-us'
+title = 'My New Hugo Site'
+theme = 'ananke'
+sectionPagesMenu = "main"
+menu = 'main'
+
+[Params]
+mainSections = ['books', 'films']
+
+[taxonomies]
+'books/genre' = 'books/genres'
+'films/genre' = 'films/genres'
